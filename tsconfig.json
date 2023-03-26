@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+      "target": "ES2021",
+      "lib": ["ES2021", "ES2018", "DOM"],
+      "module": "ES2020",
+      "allowUnreachableCode": false,
+      "allowUnusedLabels": false,
+      "moduleResolution": "nodenext",
+      //"declaration": false,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "noEmitOnError": true,
+      "pretty": true,
+      "rootDir": "src",
+      "outDir": "build",
+      /* Type Checking */
+      "strict": true,
+      "noImplicitReturns": true,
+      "noImplicitAny": true,
+      "noFallthroughCasesInSwitch": true,               
+      "skipLibCheck": true,
+      "noUnusedLocals": false,                 
+    },
+    "include": [
+      "src/**/*.ts"
+    ]
+  }
+  
